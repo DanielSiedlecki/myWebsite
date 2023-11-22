@@ -29,7 +29,7 @@ export default {
 
 .content {
   z-index: 2000;
-  height: 100vh;
+  height: 100%;
   width: auto;
   margin-left: 250px;
   background-color: #111111;
@@ -37,7 +37,7 @@ export default {
 
 @media screen and (max-width: 1024px) {
   .content {
-    margin-left: 54px;
+    margin-left: 50px;
   }
 }
 </style>
