@@ -5,18 +5,16 @@
     </div>
 
     <div class="content">
-      <about-me></about-me>
+      <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
-import AboutMe from "./components/AboutMe.vue";
 import LeftNavbar from "./components/LeftNavbar.vue";
 export default {
   components: {
     LeftNavbar,
-    AboutMe,
   },
 };
 </script>
