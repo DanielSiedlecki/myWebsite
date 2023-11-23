@@ -61,8 +61,11 @@
     <div class="mt-5 w-full lg:w-11/12 mx-auto">
       <my-skills></my-skills>
     </div>
-    <div class="mt-5 w-full lg:w-11/12 mx-auto">
+    <div class="mt-5 pb-5 w-full lg:w-10/12 mx-auto">
       <knowledge-interests />
+    </div>
+    <div class="mt-5 w-full lg:w-11/12 mx-auto">
+      <education-section></education-section>
     </div>
   </div>
 </template>
@@ -72,10 +75,17 @@ import sectionTitle from "@/elements/sectionTitle.vue";
 import buttonElement from "@/elements/buttonElement.vue";
 import MySkills from "./MySkills.vue";
 import KnowledgeInterests from "./KnowledgeInterests.vue";
+import EducationSection from "./EducationSection.vue";
 
 export default {
   setup() {},
-  components: { sectionTitle, buttonElement, MySkills, KnowledgeInterests },
+  components: {
+    sectionTitle,
+    buttonElement,
+    MySkills,
+    KnowledgeInterests,
+    EducationSection,
+  },
   data() {
     return {
       LeftSection: [
