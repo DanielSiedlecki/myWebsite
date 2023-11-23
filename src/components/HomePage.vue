@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-container flex justify-center items-center">
+  <div class="flex justify-center items-center h-screen">
     <div
       class="welcome-section flex flex-col lg:flex-row gap-20 items-center ml-2"
     >
@@ -12,8 +12,12 @@
         style="color: white"
       >
         <p class="name text-2xl md:text-3xl lg:text-5xl">Daniel Siedlecki</p>
-        <p class="job_title text-xl md:text-2xl lg:text-3xl w-42 lg:w-58">
-          Web Developer
+        <p class="job_title">
+          <VueWriter
+            :array="['Web Developer', 'Graphic Designer', 'IT Student']"
+            :iterations="1"
+            :typeSpeed="100"
+          />
         </p>
         <p class="description text-center text-xs md:text-sm lg:text-left mt-4">
           Creative Photographer based in New York and happy to travel all over
@@ -36,8 +40,10 @@
 </template>
 
 <script>
+import VueWriter from "vue-writer";
 export default {
   setup() {},
+  components: { VueWriter },
 };
 </script>
 
@@ -54,27 +60,6 @@ export default {
 
   100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-}
-
-@-webkit-keyframes typing {
-  from {
-    width: 0;
-  }
-}
-@-webkit-keyframes blink-caret {
-  50% {
-    border-color: transparent;
-  }
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-@keyframes blink-caret {
-  50% {
-    border-color: transparent;
   }
 }
 
@@ -106,10 +91,6 @@ export default {
   border-right: 0.1em solid white;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(21, end),
-    blink-caret 0.5s step-end infinite alternate;
-  -webkit-animation: typing 2s steps(21, end),
-    blink-caret 0.5s step-end infinite alternate;
 }
 .name {
   text-transform: uppercase;
