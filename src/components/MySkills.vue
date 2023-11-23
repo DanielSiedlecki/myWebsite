@@ -1,8 +1,6 @@
 <template>
-  <div class="flex flex-col lg:flex-row bg-black h-full w-full">
-    <div
-      class="basis-full lg:basis-1/2 flex flex-col justify-center mb-10 ml-2"
-    >
+  <div class="flex flex-col lg:flex-row bg-black h-full w-full pt-5 pb-5">
+    <div class="basis-full lg:basis-1/2 flex flex-col justify-center ml-2">
       <div class="title text-white lg:ml-10 mb-5">
         <h1 class="text-2xl font-semibold mt-10 ml-1">Programming Skills</h1>
       </div>
@@ -29,12 +27,8 @@
       <div class="title text-white mb-5">
         <h1 class="text-2xl font-semibold ml-1 lg:mt-10">Other</h1>
       </div>
-      <ul
-        class="list-image-checkmark m-2 ml-6"
-        v-for="item in skillsList"
-        :key="item"
-      >
-        <li>
+      <ul class="list-image-checkmark m-2 ml-6 gap-4 flex flex-col">
+        <li v-for="item in skillsList" :key="item" class="">
           <p class="text-xl text-white tracking-wider">{{ item.name }}</p>
         </li>
       </ul>
