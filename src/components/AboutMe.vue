@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="cont pt-5 min-h-screen mx-auto h-100 lg:w-10/12 pl-2 lg:pl-0">
+  <div class="lg:container animate__animated animate__fadeInLeft">
+    <div class="pt-5 min-h-screen mx-auto h-100 lg:w-10/12 lg:pl-0">
       <section-title>About Me</section-title>
       <h1 class="text-white font-semibold text-2xl mt-3 tracking-wide">
         About Me
@@ -40,8 +40,10 @@
             class="flex flex-row gap-6 leading-loose"
             v-for="item in RightSection"
             :key="item"
-            ><h1 class="text-white font-semibold">{{ item.name }}</h1>
-            <p>{{ item.value }}</p></span
+            ><h1 class="font-semibold text-gray-300">
+              {{ item.name }}
+            </h1>
+            <p class="text-white">{{ item.value }}</p></span
           >
         </div>
         <div class="basis-full lg:basis-1/2">
@@ -49,23 +51,28 @@
             class="flex flex-row gap-6 leading-loose"
             v-for="item in LeftSection"
             :key="item"
-            ><h1 class="text-white font-semibold">{{ item.name }}</h1>
-            <p>{{ item.value }}</p></span
+            ><h1 class="font-semibold text-gray-300">
+              {{ item.name }}
+            </h1>
+            <p class="text-white">{{ item.value }}</p></span
           >
         </div>
       </div>
-      <div class="mt-5">
+      <div class="mt-5 pb-5">
         <button-element class="mt-5">Download CV</button-element>
       </div>
-    </div>
-    <div class="mt-5 w-full lg:w-11/12 mx-auto">
-      <my-skills></my-skills>
-    </div>
-    <div class="mt-5 pb-5 w-full lg:w-10/12 mx-auto">
-      <knowledge-interests />
-    </div>
-    <div class="mt-5 w-full lg:w-11/12 mx-auto">
-      <education-section></education-section>
+      <div class="mt-5 pb-5 w-full lg:w-11/12 mx-auto">
+        <my-skills></my-skills>
+      </div>
+      <div class="mt-5 pb-5 w-full mx-auto">
+        <knowledge-interests />
+      </div>
+      <div class="mt-5 pb-5 w-full lg:w-11/12 mx-auto">
+        <education-section></education-section>
+      </div>
+      <div class="mt-5 pb-5 w-full mx-auto">
+        <certifications-course></certifications-course>
+      </div>
     </div>
   </div>
 </template>
@@ -76,6 +83,7 @@ import buttonElement from "@/elements/buttonElement.vue";
 import MySkills from "./MySkills.vue";
 import KnowledgeInterests from "./KnowledgeInterests.vue";
 import EducationSection from "./EducationSection.vue";
+import CertificationsCourse from "./CertificationsCourse.vue";
 
 export default {
   setup() {},
@@ -85,6 +93,7 @@ export default {
     MySkills,
     KnowledgeInterests,
     EducationSection,
+    CertificationsCourse,
   },
   data() {
     return {
