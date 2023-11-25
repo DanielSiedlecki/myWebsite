@@ -1,7 +1,7 @@
 <template>
   <div class="side-nav mobile">
     <a href="#" class="logo">
-      <p style="color: white">D Siedlecki</p>
+      <p class="text-white font-semibold">D Siedlecki</p>
     </a>
     <ul class="nav-links">
       <li>
@@ -49,6 +49,7 @@ export default {
   color: white;
 }
 .side-nav {
+  z-index: 1000;
   color: #767676;
   width: 250px;
   height: 100%;
@@ -80,7 +81,6 @@ export default {
     li {
       padding: 10;
       a {
-        letter-spacing: 1px;
         display: flex;
         gap: 8px;
         p,
