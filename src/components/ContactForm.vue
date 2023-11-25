@@ -19,26 +19,26 @@
         <div
           class="basis-2/4 flex items-center justify-center flex-col gap-5 mt-10"
         >
-          <i class="bi bi-globe-americas text-5xl text-white"></i>
-          <h1 class="text-white">Lorem Ipsum</h1>
+          <i class="bi bi-telephone-fill text-5xl text-white"></i>
+          <h1 class="text-white">+48 534 166 602</h1>
         </div>
         <div
           class="basis-2/4 flex items-center justify-center flex-col gap-5 mt-10"
         >
-          <i class="bi bi-globe-americas text-5xl text-white"></i>
-          <h1 class="text-white">Lorem Ipsum</h1>
+          <i class="bi bi-envelope-fill text-5xl text-white"></i>
+          <h1 class="text-white">mrSiedlecki@outlook.com</h1>
         </div>
         <div
           class="basis-2/4 flex items-center justify-center flex-col gap-5 mt-10"
         >
-          <i class="bi bi-globe-americas text-5xl text-white"></i>
-          <h1 class="text-white">Lorem Ipsum</h1>
+          <i class="bi bi-geo-fill text-5xl text-white"></i>
+          <h1 class="text-white">Poland | Wrocław</h1>
         </div>
         <div
           class="basis-2/4 flex items-center justify-center flex-col gap-5 mt-10"
         >
-          <i class="bi bi-globe-americas text-5xl text-white"></i>
-          <h1 class="text-white">Lorem Ipsum</h1>
+          <i class="bi bi-facebook text-5xl text-white"></i>
+          <h1 class="text-white">Daniel Siedlecki</h1>
         </div>
 
         <form class="flex flex-col gap-5 mx-auto mt-15 pb-10 w-11/12 lg:w-3/4">
