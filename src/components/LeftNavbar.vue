@@ -1,9 +1,10 @@
 <template>
   <div class="side-nav mobile">
-    <a href="#" class="logo">
-      <p class="text-white font-semibold">D Siedlecki</p>
-    </a>
-
+    <router-link to="/">
+      <a class="logo">
+        <p class="text-white font-semibold">D Siedlecki</p>
+      </a>
+    </router-link>
     <ul class="nav-links">
       <li>
         <router-link to="/home">
@@ -14,7 +15,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/aboutme">
+        <router-link to="/about">
           <a
             ><i class="bi bi-person-fill"></i>
             <p>About Me</p></a
@@ -28,10 +29,12 @@
         >
       </li>
       <li>
-        <a href="#"
-          ><i class="bi bi-envelope-open-fill"></i>
-          <p>Contact</p></a
-        >
+        <router-link to="/contact">
+          <a
+            ><i class="bi bi-envelope-open-fill"></i>
+            <p>Contact</p></a
+          >
+        </router-link>
       </li>
     </ul>
 
