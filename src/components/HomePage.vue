@@ -1,5 +1,7 @@
 <template>
-  <div class="flex justify-center items-center h-screen">
+  <div
+    class="flex justify-center items-center h-screen animate__animated animate__fadeIn"
+  >
     <div
       class="welcome-section flex flex-col lg:flex-row gap-20 items-center ml-2"
     >
@@ -15,8 +17,9 @@
         <p class="job_title">
           <VueWriter
             :array="['Web Developer', 'Graphic Designer', 'IT Student']"
-            :iterations="1"
             :typeSpeed="100"
+            :delay="1000"
+            :start="400"
           />
         </p>
         <p class="description text-center text-xs md:text-sm lg:text-left mt-4">
