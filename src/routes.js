@@ -7,6 +7,10 @@ const router = createRouter({
   linkActiveClass: "active",
   routes: [
     {
+      path: "/",
+      redirect: { path: "/home" },
+    },
+    {
       path: "/home",
       component: Home,
       meta: {
@@ -14,7 +18,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/aboutme",
+      path: "/about",
       component: AboutMe,
       meta: {
         title: "About Me",
