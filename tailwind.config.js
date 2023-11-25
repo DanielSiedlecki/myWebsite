@@ -6,6 +6,9 @@ module.exports = {
       listStyleImage: {
         checkmark: 'url("assets/check.svg")',
       },
+      backgroundImage: {
+        contactForm: 'url("assets/backgroundForm.jpg")',
+      },
     },
   },
   variants: {
