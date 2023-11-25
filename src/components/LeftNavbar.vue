@@ -3,18 +3,23 @@
     <a href="#" class="logo">
       <p class="text-white font-semibold">D Siedlecki</p>
     </a>
+
     <ul class="nav-links">
       <li>
-        <a href="#" class="active"
-          ><i class="bi bi-house-door-fill"></i>
-          <p>Home</p></a
-        >
+        <router-link to="/home">
+          <a
+            ><i class="bi bi-house-door-fill"></i>
+            <p>Home</p></a
+          >
+        </router-link>
       </li>
       <li>
-        <a href="#"
-          ><i class="bi bi-person-fill"></i>
-          <p>About Me</p></a
-        >
+        <router-link to="/aboutme">
+          <a
+            ><i class="bi bi-person-fill"></i>
+            <p>About Me</p></a
+          >
+        </router-link>
       </li>
       <li>
         <a href="#"
