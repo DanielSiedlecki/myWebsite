@@ -14,7 +14,7 @@
       </div>
 
       <div
-        class="md:container h-screen w-full md:w-9/12 mx-auto md:-mt-36 bg-black rounded-lg flex flex-wrap"
+        class="md:container h-full w-full md:w-9/12 mx-auto md:-mt-36 bg-black rounded-lg flex flex-wrap"
       >
         <div
           class="basis-2/4 flex items-center justify-center flex-col gap-5 mt-10"
@@ -86,6 +86,19 @@
                 class="h-28 w-full lg:w-96 border-gray-300 bg-custom-color text-white mt-2 p-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 flex items-center"
               ></textarea>
             </div>
+            <p class="text-gray-400 w-full md:w-96" style="font-size: 10px">
+              The data provided by you are processed for the purpose of
+              responding to your inquiry, and the data controller is Daniel
+              Siedlecki. More information on how your data is processed and what
+              your rights are can be found in my
+              <a
+                class="text-white text-sm"
+                href="./PrivacyPolicy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Privacy Policy</a
+              >.
+            </p>
             <button
               placeholder="Send"
               class="text-white text-2xl lg:text-lg border w-2/4 md:w-1/3 h-12 lg:h-8 mt-5 rounded-md hover:bg-white hover:text-black"
