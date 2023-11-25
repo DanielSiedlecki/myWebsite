@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AboutMe from "@/components/AboutMe";
 import Home from "@/components/HomePage";
+import Contact from "@/components/ContactForm";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -22,6 +23,13 @@ const router = createRouter({
       component: AboutMe,
       meta: {
         title: "About Me",
+      },
+    },
+    {
+      path: "/contact",
+      component: Contact,
+      meta: {
+        title: "Contact Me",
       },
     },
   ],
