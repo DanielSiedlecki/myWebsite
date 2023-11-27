@@ -4,7 +4,7 @@
       <left-navbar />
     </div>
 
-    <div class="content">
+    <div class="content bg-custom-color">
       <router-view></router-view>
     </div>
   </div>
@@ -30,7 +30,6 @@ export default {
   height: 100%;
   width: auto;
   margin-left: 250px;
-  background-color: #111111;
 }
 
 @media screen and (max-width: 1024px) {
