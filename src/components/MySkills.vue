@@ -22,7 +22,7 @@
             <div
               id="progress-bar"
               class="bg-gray-400"
-              :style="{ width: item.percent }"
+              :style="{ '--progress-width': `${item.percent}` }"
             ></div>
           </div>
         </div>
@@ -80,5 +80,16 @@ export default {
   height: 100%;
   transition: width 0.3s;
   border-radius: 50px;
+  width: var(--progress-width);
+  animation: progressAnimationStrike 2s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--progress-width);
+  }
 }
 </style>
