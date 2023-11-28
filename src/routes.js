@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AboutMe from "@/components/AboutMe";
 import Home from "@/components/HomePage";
+import Portfolio from "@/components/PortfolioSection";
 import Contact from "@/components/ContactForm";
 
 const router = createRouter({
@@ -23,6 +24,13 @@ const router = createRouter({
       component: AboutMe,
       meta: {
         title: "About Me",
+      },
+    },
+    {
+      path: "/Portfolio",
+      component: Portfolio,
+      meta: {
+        title: "Portfolio",
       },
     },
     {

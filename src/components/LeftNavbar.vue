@@ -23,10 +23,12 @@
         </router-link>
       </li>
       <li>
-        <a href="#"
-          ><i class="bi bi-folder-fill"></i>
-          <p>Portfolio</p></a
-        >
+        <router-link to="/portfolio">
+          <a
+            ><i class="bi bi-folder-fill"></i>
+            <p>Portfolio</p></a
+          >
+        </router-link>
       </li>
       <li>
         <router-link to="/contact">
