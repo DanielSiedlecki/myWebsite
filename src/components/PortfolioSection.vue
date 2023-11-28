@@ -12,8 +12,9 @@
 
       <ul class="text-gray-300 flex flex-col lg:flex-row lg:gap-5 mt-5 lg:mt-0">
         <li class="hover:cursor-pointer text-white"><a>All</a></li>
-        <li><a>Programming</a></li>
-        <li><a>Computer Graphics</a></li>
+        <li><a>Fullstack</a></li>
+        <li><a>Frontend</a></li>
+        <li><a>Backend</a></li>
       </ul>
     </div>
 
@@ -83,6 +84,7 @@ export default {
           description:
             "Program for creating invoices based on WinForms (currently in development)",
           code: "https://github.com/DanielSiedlecki/InvoiceProgram",
+          type: "Fullstack",
         },
         {
           title: "Traditional Clock",
@@ -90,6 +92,7 @@ export default {
             "Clock for check time all of the world I used only HTML, JavaScript and CSS.",
           code: "https://github.com/DanielSiedlecki/TraditionalClock",
           image: require("../assets/portfolioPicture/clockProject.jpg"),
+          type: "Frontend",
         },
         {
           title: "CatsGram",
@@ -98,11 +101,13 @@ export default {
           code: "https://github.com/DanielSiedlecki/Catsgram",
           demo: "https://catsgram-mobile.netlify.app/",
           image: require("../assets/portfolioPicture/catsGramProject.jpg"),
+          type: "Frontend",
         },
         {
           title: "AuthSystem",
           description: "It is a completed authentication system.",
           code: "https://github.com/DanielSiedlecki/AuthSystem",
+          type: "Backend",
         },
         {
           title: "EmployeesOffice",
@@ -110,12 +115,14 @@ export default {
             "Web application created to check how many people are left in the office.",
           code: "https://github.com/DanielSiedlecki/EmployeesOffice",
           demo: "www.google.com",
+          type: "Fullstack",
         },
         {
           title: "Courier-DataBase",
           description:
             "It is my first old project it is a simple program for managing shipments based on a basic GUI using tkinter.",
           code: "https://github.com/DanielSiedlecki/Courier-DataBase",
+          type: "Fullstack",
         },
       ],
     };
