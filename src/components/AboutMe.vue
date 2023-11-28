@@ -1,6 +1,6 @@
 <template>
   <div class="lg:container animate__animated animate__fadeInLeft">
-    <div class="pt-5 min-h-screen mx-auto h-100 lg:w-10/12 lg:pl-0">
+    <div class="pt-10 min-h-screen mx-auto h-100 lg:w-10/12 lg:pl-0">
       <section-title>About Me</section-title>
       <h1 class="text-white font-semibold text-2xl mt-3 tracking-wide">
         About Me
@@ -38,7 +38,7 @@
         <div class="basis-full lg:basis-1/2">
           <span
             class="flex flex-row gap-6 leading-loose"
-            v-for="item in RightSection"
+            v-for="item in LeftSection"
             :key="item"
             ><h1 class="font-semibold text-gray-300">
               {{ item.name }}
@@ -49,7 +49,7 @@
         <div class="basis-full lg:basis-1/2">
           <span
             class="flex flex-row gap-6 leading-loose"
-            v-for="item in LeftSection"
+            v-for="item in RightSection"
             :key="item"
             ><h1 class="font-semibold text-gray-300">
               {{ item.name }}
@@ -98,16 +98,13 @@ export default {
   data() {
     return {
       LeftSection: [
-        { name: "Birthday", value: "test" },
-        { name: "Birthday", value: "test" },
-        { name: "Birthday", value: "test" },
-        { name: "Birthday", value: "test" },
+        { name: "Age:", value: "22" },
+        { name: "Email:", value: "mrSiedlecki@outlook.com" },
+        { name: "Nationality:", value: "Polish" },
       ],
       RightSection: [
-        { name: "Birthday", value: "test" },
-        { name: "Birthday", value: "test" },
-        { name: "Birthday", value: "test" },
-        { name: "Birthday", value: "test" },
+        { name: "Student status:", value: "Current" },
+        { name: "Remote work:", value: "Available" },
       ],
     };
   },

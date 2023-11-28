@@ -20,9 +20,9 @@
               Junior Salesforce Developer
             </h4>
             <p class="mb-4 text-sm font-normal text-gray-500 max-w-sm">
-              Get access to over 20+ pages including a dashboard layout, charts,
-              kanban board, calendar, and pre-order E-commerce & Marketing
-              pages.
+              Completed Salesforce 365 Bootcamp <br />
+              Responsibilites: Creating custom Fullstack solutions in LWC, Apex
+              and Visualforce languages.
             </p>
           </li>
           <li class="mb-5 ms-4">
@@ -37,9 +37,9 @@
               Frontend Developer
             </h4>
             <p class="text-sm font-normal text-gray-500 max-w-sm">
-              All of the pages and components are first designed in Figma and we
-              keep a parity between the two versions even as we update the
-              project.
+              Responsibilites: Participation in a web application project at
+              Portiernia. My main tasks were designing the entire Front End for
+              this web application using the Vue framework.
             </p>
           </li>
         </ol>
@@ -65,9 +65,8 @@
               Network Computer Engerring
             </h4>
             <p class="mb-4 text-sm font-normal text-gray-500 max-w-sm">
-              Get access to over 20+ pages including a dashboard layout, charts,
-              kanban board, calendar, and pre-order E-commerce & Marketing
-              pages.
+              Fulltime Studies <br />
+              The expected completion date: March 2023
             </p>
           </li>
         </ol>

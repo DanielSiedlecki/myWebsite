@@ -38,13 +38,13 @@ export default {
   setup() {},
   data() {
     return {
-      softSkills: ["teamwork", "teamwork", "teamwork", "teamwork"],
-      interests: [
-        "powerlifting",
-        "powerlifting",
-        "powerlifting",
-        "powerlifting",
+      softSkills: [
+        "Adaptability",
+        "Teamwork",
+        "Quick learning abillity",
+        "Organizational skills",
       ],
+      interests: ["Powerlifting", "Computer Graphic", "Strength Training"],
     };
   },
 };

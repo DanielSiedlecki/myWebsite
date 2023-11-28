@@ -32,7 +32,7 @@
           <h1 class="text-2xl font-semibold ml-1 lg:mt-10">Other</h1>
         </div>
         <ul class="list-image-checkmark m-2 ml-6 gap-4 flex flex-col">
-          <li v-for="item in skillsList" :key="item" class="">
+          <li v-for="item in otherSkillsList" :key="item" class="">
             <p class="text-xl text-white tracking-wider">{{ item.name }}</p>
           </li>
         </ul>
@@ -47,13 +47,23 @@ export default {
   data() {
     return {
       skillsList: [
-        { name: "Skills", percent: "30%" },
-        { name: "Skills", percent: "30%" },
-        { name: "Skills", percent: "30%" },
-        { name: "Skills", percent: "30%" },
-        { name: "Skills", percent: "30%" },
-        { name: "Skills", percent: "30%" },
-        { name: "Skills", percent: "30%" },
+        { name: "HTML, SCSS", percent: "70%" },
+        { name: "Javascript / Typescript", percent: "62%" },
+        { name: "Node.js", percent: "51%" },
+        { name: "Vue.js", percent: "54%" },
+        { name: "React.js", percent: "35%" },
+        { name: "C#", percent: "40%" },
+        { name: "Python", percent: "40%" },
+        { name: "APEX, LWC", percent: "50%" },
+      ],
+      otherSkillsList: [
+        { name: "REST API, JSON" },
+        { name: "SQL, SOQL, MongoDB, DynamoDB" },
+        { name: "Azure, Git" },
+        { name: "Rest, Postman" },
+        { name: "Figma, Adobe Photoshop" },
+        { name: "MS EXCEL, MS SERVER, Salesforce Administration" },
+        { name: "English: Inter-mediate" },
       ],
     };
   },
