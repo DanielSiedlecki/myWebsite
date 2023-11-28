@@ -34,7 +34,7 @@
             class="bi bi-linkedin text-xl lg:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
           ></i>
           <i
-            class="bi bi-instagram text-xl lg:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+            class="bi bi-telephone-fill text-xl lg:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
           ></i>
         </div>
       </div>
