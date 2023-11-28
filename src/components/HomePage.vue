@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-center items-center h-screen animate__animated animate__fadeIn"
+    class="flex justify-center items-center h-full lg:h-screen animate__animated animate__fadeIn"
   >
     <div
       class="welcome-section flex flex-col lg:flex-row gap-20 items-center ml-2"
@@ -23,19 +23,26 @@
           />
         </p>
         <p class="description text-center text-xs md:text-sm lg:text-left mt-4">
-          Creative Photographer based in New York and happy to travel all over
-          Europe to capture photos.
+          Young web developer based in Poland, passionate about crafting
+          innovative online solutions.
         </p>
         <div class="social-media-icons flex gap-4 mt-3">
-          <i
-            class="bi bi-github text-xl lg:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
-          ></i>
-          <i
-            class="bi bi-linkedin text-xl lg:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
-          ></i>
-          <i
-            class="bi bi-telephone-fill text-xl lg:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
-          ></i>
+          <a
+            a
+            href="https://github.com/DanielSiedlecki"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+            ><i class="bi bi-github text-xl lg:text-3xl"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/daniel-siedlecki-6b2308263/ "
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+            ><i class="bi bi-linkedin text-xl lg:text-3xl"></i
+          ></a>
+          <a
+            href="tel:+48534166602"
+            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+            ><i class="bi bi-telephone-fill text-xl lg:text-3xl"></i
+          ></a>
         </div>
       </div>
     </div>

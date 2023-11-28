@@ -22,16 +22,15 @@
         class="text-section text-white border-y pb-8 pt-6 flex flex-col gap-5"
       >
         <p class="text-xs tracking-wider leading-relaxed">
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          Hello, I'm Daniel, a full-stack web developer with a focus on React,
+          Node.js, and Vue. I thrive on creating seamless digital experiences
+          and tackling challenges in the dynamic world of web development.
         </p>
         <p class="text-xs tracking-wider leading-relaxed">
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          I am passionate hardworking and knowledge driven person. Even though I
+          don't have extensive commercial experience, I always strive to find a
+          solution to every problem. My interests are powerlifting, strength
+          training and Computer Graphics.
         </p>
       </div>
       <div class="informations flex flex-col lg:flex-row mt-5">
