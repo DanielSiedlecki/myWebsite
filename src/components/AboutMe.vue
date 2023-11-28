@@ -58,7 +58,9 @@
         </div>
       </div>
       <div class="mt-5 pb-5">
-        <button-element class="mt-5">Download CV</button-element>
+        <button-element class="mt-5" :attachment="'./myCV.pdf'"
+          >Download CV</button-element
+        >
       </div>
       <div class="mt-5 pb-5 w-full lg:w-11/12 mx-auto">
         <my-skills></my-skills>
