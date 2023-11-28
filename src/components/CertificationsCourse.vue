@@ -8,7 +8,7 @@
         <span class="flex flex-col items-center gap-2">
           <i class="bi bi-patch-check-fill text-white text-4xl"></i>
           <p class="text-white text-xl w-5/6 text-center">
-            Get access to over 20+ pages including a dashboard
+            Altkom Acadamy Training in GIT - Agile and Modern Code Repository
           </p>
         </span>
       </div>
@@ -16,7 +16,7 @@
         <span class="flex flex-col items-center gap-2">
           <i class="bi bi-patch-check-fill text-white text-4xl"></i>
           <p class="text-white text-xl w-5/6 text-center">
-            Get access to over 20+ pages including a dashboard
+            SAP University Alliances - Integrated Information System SAP S/4HANA
           </p>
         </span>
       </div>
@@ -24,7 +24,7 @@
         <span class="flex flex-col items-center gap-2">
           <i class="bi bi-patch-check-fill text-white text-4xl"></i>
           <p class="text-white text-xl w-5/6 text-center">
-            Get access to over 20+ pages including a dashboard
+            Microsoft Azure Fundamentals
           </p>
         </span>
       </div>
