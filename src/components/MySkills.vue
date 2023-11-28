@@ -12,8 +12,8 @@
         >
           <span
             class="flex flex-row text-white font justify-between italic w-full lg:w-10/12"
-            ><p class="text-lg tracking-wide">{{ item.name }}</p>
-            <p class="text-lg">{{ item.percent }}</p></span
+            ><p class="text-md lg:text-xl tracking-wide">{{ item.name }}</p>
+            <p class="text-md lg:text-xl">{{ item.percent }}</p></span
           >
           <div
             id="progress-bar-container"
@@ -33,7 +33,9 @@
         </div>
         <ul class="list-image-checkmark m-2 ml-6 gap-4 flex flex-col">
           <li v-for="item in otherSkillsList" :key="item" class="">
-            <p class="text-xl text-white tracking-wider">{{ item.name }}</p>
+            <p class="text-md lg:text-xl text-white tracking-wider">
+              {{ item.name }}
+            </p>
           </li>
         </ul>
       </div>

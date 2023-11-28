@@ -7,7 +7,7 @@
       <div class="flex basis-full md:basis-1/2 lg:basis-1/3 w-4/6">
         <span class="flex flex-col items-center gap-2">
           <i class="bi bi-patch-check-fill text-white text-4xl"></i>
-          <p class="text-white text-xl w-5/6 text-center">
+          <p class="text-white text-md lg:text-xl w-5/6 text-center">
             Altkom Acadamy Training in GIT - Agile and Modern Code Repository
           </p>
         </span>
@@ -15,7 +15,7 @@
       <div class="flex flex-row md:basis-1/2 lg:basis-1/3 w-4/6">
         <span class="flex flex-col items-center gap-2">
           <i class="bi bi-patch-check-fill text-white text-4xl"></i>
-          <p class="text-white text-xl w-5/6 text-center">
+          <p class="text-white text-md lg:text-xl w-5/6 text-center">
             SAP University Alliances - Integrated Information System SAP S/4HANA
           </p>
         </span>
@@ -23,7 +23,7 @@
       <div class="flex flex-row md:basis-1/2 lg:basis-1/3 w-4/6">
         <span class="flex flex-col items-center gap-2">
           <i class="bi bi-patch-check-fill text-white text-4xl"></i>
-          <p class="text-white text-xl w-5/6 text-center">
+          <p class="text-white text-md lg:text-xl w-5/6 text-center">
             Microsoft Azure Fundamentals
           </p>
         </span>
