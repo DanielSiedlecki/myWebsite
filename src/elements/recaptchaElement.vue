@@ -18,4 +18,11 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+@media only screen and (max-width: 569px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    transform-origin: 0 0;
+  }
+}
+</style>
