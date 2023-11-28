@@ -4,7 +4,7 @@
   >
     <section-title>Portfolio</section-title>
     <div
-      class="navbar flex flex-col lg:flex-row justify-between items-center mt-10"
+      class="navbar flex flex-col lg:flex-row justify-between items-start md:items-center mt-10"
     >
       <div class="title">
         <h1 class="text-white text-3xl font-semibold">My Portfolio</h1>
