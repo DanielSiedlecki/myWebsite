@@ -103,6 +103,7 @@
                 >Privacy Policy</a
               >.
             </p>
+            <recaptcha-element></recaptcha-element>
             <button
               type="button"
               placeholder="Send"
@@ -120,8 +121,9 @@
 
 <script>
 import toastsElement from "@/elements/toastsElement.vue";
+import recaptchaElement from "@/elements/recaptchaElement.vue";
 export default {
-  components: { toastsElement },
+  components: { toastsElement, recaptchaElement },
   data() {
     return {
       inputs: [
