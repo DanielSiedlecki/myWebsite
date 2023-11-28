@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-center items-center h-full lg:h-screen animate__animated animate__fadeIn"
+    class="flex justify-center items-center h-screen animate__animated animate__fadeIn"
   >
     <div
       class="welcome-section flex flex-col lg:flex-row gap-20 items-center ml-2"
