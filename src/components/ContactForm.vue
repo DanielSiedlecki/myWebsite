@@ -120,6 +120,7 @@
 </template>
 
 <script>
+import { SendMailService } from "@/services/mailer";
 import toastsElement from "@/elements/toastsElement.vue";
 import recaptchaElement from "@/elements/recaptchaElement.vue";
 export default {
@@ -134,20 +135,52 @@ export default {
       showToast: false,
       toastType: "",
       toastMessage: "",
+
+      textareaValue: "",
     };
   },
   methods: {
     validationForm() {
-      this.handleShowToast("testestsetestsset", "error");
-
       if (
-        this.$refs.Input[0].value != "" &&
-        this.$refs.Input[1].value != "" &&
-        this.$refs.textarea.value != ""
+        this.inputs.every((input) => input.value.trim() !== "") &&
+        this.textareaValue.value !== ""
       ) {
-        if (!this.$refs.Input[1].value.includes("@")) alert("zly format mail");
+        if (this.inputs[1].value.includes("@")) {
+          this.sendForm();
+        } else {
+          this.handleShowToast("Invalid mail format", "error");
+        }
+      } else {
+        this.handleShowToast("Complete all field", "error");
       }
     },
+    async sendForm() {
+      try {
+        const data = {
+          fullname: this.inputs[0].value,
+          mail: this.inputs[1].value,
+          text: this.textareaValue.value,
+        };
+
+        const sendMailService = new SendMailService();
+
+        const response = await sendMailService.create(data);
+
+        console.log(response);
+
+        this.handleShowToast("Mail sent", "success");
+
+        this.inputs.forEach((input) => {
+          input.value = "";
+        });
+        this.textareaValue == "";
+      } catch (error) {
+        console.error(error);
+
+        this.handleShowToast("Error sending mail", "error");
+      }
+    },
+
     onInputFocus(index) {
       this.inputs[index].isFocused = true;
     },
