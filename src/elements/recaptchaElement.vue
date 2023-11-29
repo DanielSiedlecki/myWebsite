@@ -13,7 +13,30 @@
 </template>
 
 <script>
-export default {};
+import { validationCaptcha } from "../scripts/recaptcha";
+export default {
+  mounted() {
+    window.onRecaptchaVerify = this.onRecaptchaVerify;
+  },
+
+  methods: {
+    async onRecaptchaVerify(response) {
+      try {
+        const data = await validationCaptcha(response);
+
+        if (data) {
+          this.$emit("captchaValidStatus", true);
+        } else {
+          this.$emit("captchaValidStatus", false);
+        }
+
+        console.log(response);
+      } catch (error) {
+        console.log("Error", error);
+      }
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
