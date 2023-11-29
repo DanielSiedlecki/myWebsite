@@ -103,7 +103,9 @@
                 >Privacy Policy</a
               >.
             </p>
-            <recaptcha-element></recaptcha-element>
+            <recaptcha-element
+              @captchaValidStatus="validCaptchaStatus"
+            ></recaptcha-element>
             <button
               type="button"
               placeholder="Send"
@@ -135,18 +137,32 @@ export default {
       showToast: false,
       toastType: "",
       toastMessage: "",
-
       textareaValue: "",
+      captchaValidStatus: false,
     };
   },
+
   methods: {
+    validCaptchaStatus(response) {
+      if (response) {
+        this.captchaValidStatus = true;
+      } else {
+        this.captchaValidStatus = false;
+      }
+    },
+
     validationForm() {
       if (
         this.inputs.every((input) => input.value.trim() !== "") &&
         this.textareaValue.value !== ""
       ) {
         if (this.inputs[1].value.includes("@")) {
-          this.sendForm();
+          if (this.captchaValidStatus) {
+            this.sendForm();
+            this.handleShowToast("Email sent", "success");
+          } else {
+            this.handleShowToast("Validation Captcha Failed", "error");
+          }
         } else {
           this.handleShowToast("Invalid mail format", "error");
         }
