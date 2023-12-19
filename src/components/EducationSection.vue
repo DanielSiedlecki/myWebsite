@@ -13,7 +13,24 @@
               class="absolute w-4 h-4 bg-gray-200 rounded-full mt-1.5 -start-2 border border-white"
             ></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-300"
-              >August 2023 - ongoing</time
+              >December 2023 - ongoing</time
+            >
+            <h3 class="text-lg font-semibold text-gray-300">prusaczyk.eu</h3>
+            <h4 class="text-sm font-medium text-gray-300 max-w-sm">
+              Implementation Specialist
+            </h4>
+            <p class="mb-4 text-sm font-normal text-gray-500 max-w-sm">
+              Responsibilites: Implementing Microsoft 365, assisting in the
+              deployment of Microsoft Dynamics 365, gathering information about
+              employee requirements, presenting new features.
+            </p>
+          </li>
+          <li class="mb-5 ms-4">
+            <div
+              class="absolute w-4 h-4 bg-gray-200 rounded-full mt-1.5 -start-2 border border-white"
+            ></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-300"
+              >August 2023 - December 2023</time
             >
             <h3 class="text-lg font-semibold text-gray-300">Karpato</h3>
             <h4 class="text-sm font-medium text-gray-300 max-w-sm">
